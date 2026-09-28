@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône provisoire : liste cochée (à remplacer par l'identité définitive au lot Store). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:pathData="M34,34h40a4,4 0,0 1,4 4v32a4,4 0,0 1,-4 4h-40a4,4 0,0 1,-4 -4v-32a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="#E8590C" android:pathData="M38,44l3,3 6,-6 2,2 -8,8 -5,-5z" />
+    <path android:fillColor="#1F2A37" android:pathData="M52,43h20v4h-20z" />
+    <path android:fillColor="#E8590C" android:pathData="M38,56l3,3 6,-6 2,2 -8,8 -5,-5z" />
+    <path android:fillColor="#1F2A37" android:pathData="M52,55h20v4h-20z" />
+    <path android:fillColor="#9AA5B1" android:pathData="M39,66h8v4h-8z" />
+    <path android:fillColor="#9AA5B1" android:pathData="M52,66h14v4h-14z" />
+</vector>
