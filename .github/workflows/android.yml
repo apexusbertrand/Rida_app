@@ -25,7 +25,7 @@ jobs:
         continue-on-error: true
         run: |
           set -o pipefail
-          ./gradlew --no-daemon --console=plain :domain:test :xlsx:test :data:testDebugUnitTest 2>&1 | tee tests.log
+          ./gradlew --no-daemon --console=plain :domain:test :xlsx:test :data:testDebugUnitTest :agent:testDebugUnitTest 2>&1 | tee tests.log
 
       - name: APK optimisé (release signée debug)
         id: apk

@@ -13,13 +13,12 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.PostAdd
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -97,6 +96,7 @@ fun ClientLinesScreen(
                 title = { Text(s?.title.orEmpty()) },
                 navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Retour") } },
                 actions = {
+                    IconButton(onClick = { onNewLine(vm.clientId) }) { Icon(Icons.Default.PostAdd, "Nouvelle ligne (saisie manuelle)") }
                     if ((s?.hiddenCount ?: 0) > 0) {
                         IconButton(onClick = vm::toggleHidden) {
                             Icon(
@@ -108,9 +108,6 @@ fun ClientLinesScreen(
                 },
             )
         },
-        floatingActionButton = {
-            FloatingActionButton(onClick = { onNewLine(vm.clientId) }) { Icon(Icons.Default.Add, "Nouvelle ligne") }
-        },
     ) { padding ->
         if (s == null) return@Scaffold
         if (s.items.isEmpty()) {
@@ -119,7 +116,7 @@ fun ClientLinesScreen(
         }
         LazyColumn(
             Modifier.fillMaxSize().padding(padding),
-            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 88.dp),
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 8.dp, bottom = 96.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             items(s.items, key = { it.line.uuid }) { item -> LineCard(item) { onOpenLine(item.line.id) } }

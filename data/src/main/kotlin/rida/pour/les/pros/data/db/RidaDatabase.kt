@@ -10,8 +10,9 @@ import androidx.room.RoomDatabase
         RidaLineEntity::class,
         HistoryEntryEntity::class,
         IdSequenceEntity::class,
+        ChatMessageEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = true,
 )
 abstract class RidaDatabase : RoomDatabase() {
@@ -19,6 +20,7 @@ abstract class RidaDatabase : RoomDatabase() {
     abstract fun lineDao(): LineDao
     abstract fun sequenceDao(): SequenceDao
     abstract fun adminDao(): AdminDao
+    abstract fun chatDao(): ChatDao
 
     companion object {
         const val NAME = "rida.db"

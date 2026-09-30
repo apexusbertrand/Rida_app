@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "rida-android"
-include(":app", ":domain", ":xlsx", ":data")
+include(":app", ":domain", ":xlsx", ":data", ":agent")

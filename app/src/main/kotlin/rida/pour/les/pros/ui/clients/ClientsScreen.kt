@@ -12,7 +12,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Groups
-import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -79,19 +79,19 @@ class ClientsViewModel @Inject constructor(private val repo: RidaRepository) : V
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ClientsScreen(
+    onBack: () -> Unit,
     onOpenClient: (String) -> Unit,
     onOpenReferentiel: () -> Unit,
-    onOpenSettings: () -> Unit,
     vm: ClientsViewModel = hiltViewModel(),
 ) {
     val summaries by vm.summaries.collectAsStateWithLifecycle()
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Rida pour les pros") },
+                title = { Text("Clients") },
+                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Retour") } },
                 actions = {
                     IconButton(onClick = onOpenReferentiel) { Icon(Icons.Default.Groups, "Référentiel clients") }
-                    IconButton(onClick = onOpenSettings) { Icon(Icons.Default.Settings, "Paramètres") }
                 },
             )
         },
@@ -104,11 +104,11 @@ fun ClientsScreen(
                 verticalArrangement = Arrangement.spacedBy(12.dp),
             ) {
                 Text("Aucun client pour l'instant.", style = MaterialTheme.typography.titleMedium)
-                Text("Ajoute tes clients dans le Référentiel (icône en haut), ou importe ton RIDA existant depuis les Paramètres.")
+                Text("Ajoute tes clients dans le Référentiel (icône en haut), ou importe ton RIDA existant depuis les Paramètres du chat.")
             }
             else -> LazyColumn(
                 Modifier.fillMaxSize().padding(padding),
-                contentPadding = PaddingValues(16.dp),
+                contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 96.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 items(list, key = { it.client.id }) { s -> ClientCard(s) { onOpenClient(s.client.id) } }
