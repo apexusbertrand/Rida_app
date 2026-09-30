@@ -62,6 +62,7 @@ jobs:
             mkdir -p "/tmp/status/test-results/$d"; cp "$d"/*.xml "/tmp/status/test-results/$d/";
           done
           cp app/build/outputs/apk/release/*.apk /tmp/status/ 2>/dev/null || true
+          [ -d data/schemas ] && cp -r data/schemas /tmp/status/schemas || true
           cd /tmp/status
           git init -q -b ci-status
           git config user.name "ci-bot"
