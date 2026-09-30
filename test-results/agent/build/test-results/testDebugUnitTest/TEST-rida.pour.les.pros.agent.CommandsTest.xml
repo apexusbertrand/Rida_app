@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.agent.CommandsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-30T22:18:13.807Z" hostname="runnervmtr4k5" time="0.008">
+  <properties/>
+  <testcase name="synthese_client_mail_et_adresse" classname="rida.pour.les.pros.agent.CommandsTest" time="0.007"/>
+  <testcase name="commandes_simples" classname="rida.pour.les.pros.agent.CommandsTest" time="0.0"/>
+  <testcase name="synthese_complexe_pour_l_agent" classname="rida.pour.les.pros.agent.CommandsTest" time="0.0"/>
+  <testcase name="synthese_tous_clients" classname="rida.pour.les.pros.agent.CommandsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

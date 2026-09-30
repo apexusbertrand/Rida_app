@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.data.RepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-30T22:15:47.177Z" hostname="runnervmtr4k5" time="0.558">
+  <properties/>
+  <testcase name="commentaire_refuse_a_la_creation_hors_non_identifie" classname="rida.pour.les.pros.data.RepositoryTest" time="0.171"/>
+  <testcase name="recopie_commentaires_planifiee" classname="rida.pour.les.pros.data.RepositoryTest" time="0.071"/>
+  <testcase name="import_export_reimport_sans_perte" classname="rida.pour.les.pros.data.RepositoryTest" time="0.108"/>
+  <testcase name="ids_globaux_uniques_meme_en_parallele_et_jamais_reutilises" classname="rida.pour.les.pros.data.RepositoryTest" time="0.109"/>
+  <testcase name="maj_agent_preserve_date_id_commentaire_et_empile_l_historique" classname="rida.pour.les.pros.data.RepositoryTest" time="0.049"/>
+  <testcase name="client_en_double_refuse_y_compris_via_alias" classname="rida.pour.les.pros.data.RepositoryTest" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

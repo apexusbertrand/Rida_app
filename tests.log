@@ -1,0 +1,119 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :domain:compileKotlin FROM-CACHE
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:processResources NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :domain:jar
+> Task :domain:compileTestKotlin FROM-CACHE
+> Task :domain:compileTestJava NO-SOURCE
+> Task :domain:processTestResources NO-SOURCE
+> Task :domain:testClasses UP-TO-DATE
+> Task :domain:test FROM-CACHE
+> Task :xlsx:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :xlsx:compileKotlin FROM-CACHE
+> Task :xlsx:compileJava NO-SOURCE
+> Task :xlsx:processResources NO-SOURCE
+> Task :xlsx:classes UP-TO-DATE
+> Task :xlsx:jar
+> Task :xlsx:compileTestKotlin FROM-CACHE
+> Task :xlsx:compileTestJava NO-SOURCE
+> Task :xlsx:processTestResources NO-SOURCE
+> Task :xlsx:testClasses UP-TO-DATE
+> Task :xlsx:test FROM-CACHE
+> Task :data:preBuild UP-TO-DATE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:generateDebugResValues FROM-CACHE
+> Task :data:generateDebugResources FROM-CACHE
+> Task :data:packageDebugResources FROM-CACHE
+> Task :data:parseDebugLocalResources FROM-CACHE
+> Task :data:generateDebugRFile FROM-CACHE
+> Task :data:kspDebugKotlin FROM-CACHE
+> Task :data:compileDebugKotlin FROM-CACHE
+> Task :data:javaPreCompileDebug FROM-CACHE
+> Task :data:compileDebugJavaWithJavac FROM-CACHE
+> Task :data:transformDebugClassesWithAsm FROM-CACHE
+> Task :data:preDebugUnitTestBuild UP-TO-DATE
+> Task :data:compileDebugLibraryResources FROM-CACHE
+> Task :data:writeDebugAarMetadata
+> Task :data:generateDebugUnitTestResValues FROM-CACHE
+> Task :data:bundleLibCompileToJarDebug
+> Task :data:checkDebugUnitTestAarMetadata
+> Task :data:mapDebugUnitTestSourceSetPaths
+> Task :data:generateDebugUnitTestResources FROM-CACHE
+> Task :data:mergeDebugUnitTestResources FROM-CACHE
+> Task :data:extractDeepLinksDebug FROM-CACHE
+> Task :data:processDebugManifest FROM-CACHE
+> Task :data:processDebugUnitTestManifest
+> Task :data:processDebugUnitTestResources FROM-CACHE
+> Task :data:kspDebugUnitTestKotlin FROM-CACHE
+> Task :data:compileDebugUnitTestKotlin FROM-CACHE
+> Task :data:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :data:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :data:copyRoomSchemas NO-SOURCE
+> Task :data:generateDebugUnitTestAssets UP-TO-DATE
+> Task :data:bundleLibRuntimeToJarDebug
+> Task :data:mergeDebugShaders
+> Task :data:compileDebugShaders NO-SOURCE
+> Task :data:generateDebugAssets UP-TO-DATE
+> Task :data:mergeDebugAssets
+> Task :data:mergeDebugUnitTestAssets
+> Task :data:packageDebugUnitTestForUnitTest
+> Task :data:generateDebugUnitTestConfig
+> Task :data:processDebugJavaRes
+> Task :data:hiltAggregateDepsDebugUnitTest FROM-CACHE
+> Task :data:hiltJavaCompileDebugUnitTest NO-SOURCE
+> Task :data:processDebugUnitTestJavaRes
+> Task :data:transformDebugUnitTestClassesWithAsm FROM-CACHE
+> Task :data:testDebugUnitTest FROM-CACHE
+> Task :agent:preBuild UP-TO-DATE
+> Task :agent:preDebugBuild UP-TO-DATE
+> Task :agent:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :agent:generateDebugResValues FROM-CACHE
+> Task :agent:generateDebugResources FROM-CACHE
+> Task :agent:packageDebugResources FROM-CACHE
+> Task :agent:parseDebugLocalResources FROM-CACHE
+> Task :agent:generateDebugRFile FROM-CACHE
+> Task :agent:kspDebugKotlin FROM-CACHE
+> Task :agent:compileDebugKotlin FROM-CACHE
+> Task :agent:javaPreCompileDebug FROM-CACHE
+> Task :agent:compileDebugJavaWithJavac FROM-CACHE
+> Task :agent:transformDebugClassesWithAsm FROM-CACHE
+> Task :agent:generateDebugUnitTestAssets UP-TO-DATE
+> Task :agent:mergeDebugShaders
+> Task :agent:compileDebugShaders NO-SOURCE
+> Task :agent:generateDebugAssets UP-TO-DATE
+> Task :agent:bundleLibRuntimeToJarDebug
+> Task :agent:mergeDebugAssets
+> Task :agent:preDebugUnitTestBuild UP-TO-DATE
+> Task :agent:mergeDebugUnitTestAssets
+> Task :agent:writeDebugAarMetadata
+> Task :agent:compileDebugLibraryResources FROM-CACHE
+> Task :agent:checkDebugUnitTestAarMetadata
+> Task :agent:generateDebugUnitTestResValues FROM-CACHE
+> Task :agent:mapDebugUnitTestSourceSetPaths
+> Task :agent:generateDebugUnitTestResources FROM-CACHE
+> Task :agent:mergeDebugUnitTestResources FROM-CACHE
+> Task :agent:extractDeepLinksDebug FROM-CACHE
+> Task :agent:processDebugManifest FROM-CACHE
+> Task :agent:processDebugUnitTestManifest
+> Task :agent:processDebugUnitTestResources FROM-CACHE
+> Task :agent:packageDebugUnitTestForUnitTest
+> Task :agent:generateDebugUnitTestConfig
+> Task :agent:processDebugJavaRes
+> Task :agent:javaPreCompileDebugUnitTest FROM-CACHE
+> Task :agent:bundleLibCompileToJarDebug
+> Task :agent:kspDebugUnitTestKotlin
+> Task :agent:compileDebugUnitTestKotlin
+> Task :agent:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :agent:hiltAggregateDepsDebugUnitTest FROM-CACHE
+> Task :agent:hiltJavaCompileDebugUnitTest NO-SOURCE
+> Task :agent:processDebugUnitTestJavaRes
+> Task :agent:transformDebugUnitTestClassesWithAsm
+> Task :agent:testDebugUnitTest
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/tests-1790806658612.json
+
+BUILD SUCCESSFUL in 41s
+80 actionable tasks: 32 executed, 48 from cache

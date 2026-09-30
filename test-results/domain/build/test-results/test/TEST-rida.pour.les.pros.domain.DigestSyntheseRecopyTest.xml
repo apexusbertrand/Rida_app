@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.domain.DigestSyntheseRecopyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-30T21:29:24.927Z" hostname="runnervm8df0l" time="0.075">
+  <properties/>
+  <testcase name="synthese_retard_et_7_jours_avec_jours_de_retard" classname="rida.pour.les.pros.domain.DigestSyntheseRecopyTest" time="0.021"/>
+  <testcase name="digest_jour_et_deux_jours_suivants" classname="rida.pour.les.pros.domain.DigestSyntheseRecopyTest" time="0.031"/>
+  <testcase name="recopie_planifiee_J_moins_1_et_a_la_demande_J" classname="rida.pour.les.pros.domain.DigestSyntheseRecopyTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

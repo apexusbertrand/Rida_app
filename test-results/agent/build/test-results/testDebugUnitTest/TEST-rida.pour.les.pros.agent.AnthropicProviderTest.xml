@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.agent.AnthropicProviderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-30T22:18:13.670Z" hostname="runnervmtr4k5" time="0.135">
+  <properties/>
+  <testcase name="envoie_les_en_tetes_et_lit_un_appel_d_outil" classname="rida.pour.les.pros.agent.AnthropicProviderTest" time="0.125"/>
+  <testcase name="erreur_401_lisible" classname="rida.pour.les.pros.agent.AnthropicProviderTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

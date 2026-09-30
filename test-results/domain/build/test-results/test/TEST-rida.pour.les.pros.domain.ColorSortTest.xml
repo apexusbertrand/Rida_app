@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.domain.ColorSortTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-30T21:29:24.877Z" hostname="runnervm8df0l" time="0.044">
+  <properties/>
+  <testcase name="orange_si_a_faire_entre_J_et_J4" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.024"/>
+  <testcase name="rouge_vif_si_depassee_et_non_terminee" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.0"/>
+  <testcase name="vert_vif_si_en_cours_entre_J_et_J4" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.0"/>
+  <testcase name="defaut_vert_pastel" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.0"/>
+  <testcase name="tri_ouvertes_croissant_puis_terminees_decroissant_sans_date_en_fin" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.015"/>
+  <testcase name="rouge_pastel_statut_seul_si_termine_sans_realisation" classname="rida.pour.les.pros.domain.ColorSortTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

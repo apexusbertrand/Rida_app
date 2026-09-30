@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.domain.LineRulesTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-30T21:29:25.012Z" hostname="runnervm8df0l" time="0.025">
+  <properties/>
+  <testcase name="masquage_conserve_les_donnees_et_remplace_le_sujet" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.001"/>
+  <testcase name="maj_agent_conserve_date_id_commentaire_et_empile_historique" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.003"/>
+  <testcase name="commentaire_accepte_en_saisie_manuelle" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.001"/>
+  <testcase name="commentaire_refuse_hors_non_identifie" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.002"/>
+  <testcase name="reclassement_garde_l_id" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.0"/>
+  <testcase name="creation_impose_date_du_jour_et_echeance_J15_pour_action" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.002"/>
+  <testcase name="information_sans_echeance_reste_sans_echeance" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.0"/>
+  <testcase name="shorten_coupe_sur_un_mot" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.0"/>
+  <testcase name="creation_terminee_renseigne_realisation" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.001"/>
+  <testcase name="limites_120_et_500_refusees_sans_troncature" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.008"/>
+  <testcase name="maj_agent_sans_entree_historique_refusee" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.001"/>
+  <testcase name="commentaire_accepte_pour_non_identifie" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.0"/>
+  <testcase name="edition_utilisateur_action_sans_echeance_refusee" classname="rida.pour.les.pros.domain.LineRulesTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

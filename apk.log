@@ -1,0 +1,177 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :domain:compileKotlin UP-TO-DATE
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:processResources NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :domain:jar UP-TO-DATE
+> Task :xlsx:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :xlsx:compileKotlin UP-TO-DATE
+> Task :xlsx:compileJava NO-SOURCE
+> Task :xlsx:processResources NO-SOURCE
+> Task :xlsx:classes UP-TO-DATE
+> Task :xlsx:jar UP-TO-DATE
+> Task :agent:preBuild UP-TO-DATE
+> Task :agent:preReleaseBuild UP-TO-DATE
+> Task :agent:mergeReleaseJniLibFolders
+> Task :agent:mergeReleaseNativeLibs NO-SOURCE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :agent:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseJniLibFolders
+> Task :data:preBuild UP-TO-DATE
+> Task :data:preReleaseBuild UP-TO-DATE
+> Task :data:mergeReleaseJniLibFolders
+> Task :data:mergeReleaseNativeLibs NO-SOURCE
+> Task :agent:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:copyReleaseJniLibsProjectOnly
+> Task :agent:generateReleaseResValues FROM-CACHE
+> Task :agent:generateReleaseResources FROM-CACHE
+> Task :agent:packageReleaseResources FROM-CACHE
+> Task :app:mergeReleaseNativeLibs
+> Task :agent:parseReleaseLocalResources FROM-CACHE
+> Task :agent:generateReleaseRFile FROM-CACHE
+> Task :data:generateReleaseResValues FROM-CACHE
+> Task :data:generateReleaseResources FROM-CACHE
+> Task :data:packageReleaseResources FROM-CACHE
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so. Run with --info option to learn more.
+
+> Task :app:extractReleaseNativeSymbolTables FROM-CACHE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :data:parseReleaseLocalResources FROM-CACHE
+> Task :data:generateReleaseRFile FROM-CACHE
+> Task :data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:kspReleaseKotlin FROM-CACHE
+> Task :data:compileReleaseKotlin FROM-CACHE
+> Task :data:javaPreCompileRelease FROM-CACHE
+> Task :data:compileReleaseJavaWithJavac FROM-CACHE
+> Task :data:copyRoomSchemas NO-SOURCE
+> Task :data:transformReleaseClassesWithAsm FROM-CACHE
+> Task :agent:javaPreCompileRelease FROM-CACHE
+> Task :data:mergeReleaseGeneratedProguardFiles
+> Task :data:exportReleaseConsumerProguardFiles
+> Task :data:bundleLibRuntimeToJarRelease
+> Task :data:bundleLibCompileToJarRelease
+> Task :agent:kspReleaseKotlin FROM-CACHE
+> Task :app:checkReleaseDuplicateClasses
+> Task :agent:compileReleaseKotlin FROM-CACHE
+> Task :agent:compileReleaseJavaWithJavac FROM-CACHE
+> Task :agent:transformReleaseClassesWithAsm FROM-CACHE
+> Task :agent:mergeReleaseGeneratedProguardFiles
+> Task :agent:exportReleaseConsumerProguardFiles
+> Task :agent:prepareReleaseArtProfile
+> Task :agent:bundleLibCompileToJarRelease
+> Task :data:prepareReleaseArtProfile
+> Task :agent:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseArtProfile
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateReleaseResValues FROM-CACHE
+> Task :agent:writeReleaseAarMetadata
+> Task :data:writeReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources FROM-CACHE
+> Task :app:checkReleaseAarMetadata
+> Task :app:mergeReleaseResources FROM-CACHE
+> Task :app:packageReleaseResources FROM-CACHE
+> Task :app:parseReleaseLocalResources FROM-CACHE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :agent:extractDeepLinksRelease FROM-CACHE
+> Task :agent:processReleaseManifest FROM-CACHE
+> Task :app:extractDeepLinksRelease FROM-CACHE
+> Task :data:extractDeepLinksRelease FROM-CACHE
+> Task :data:processReleaseManifest FROM-CACHE
+> Task :app:processReleaseMainManifest FROM-CACHE
+> Task :app:processReleaseManifest FROM-CACHE
+> Task :app:processReleaseManifestForPackage FROM-CACHE
+> Task :app:processReleaseResources FROM-CACHE
+> Task :app:kspReleaseKotlin FROM-CACHE
+> Task :app:compileReleaseKotlin FROM-CACHE
+> Task :app:javaPreCompileRelease FROM-CACHE
+> Task :app:compileReleaseJavaWithJavac FROM-CACHE
+> Task :app:hiltAggregateDepsRelease FROM-CACHE
+> Task :app:hiltJavaCompileRelease FROM-CACHE
+> Task :app:transformReleaseClassesWithAsm FROM-CACHE
+> Task :app:expandReleaseArtProfileWildcards FROM-CACHE
+> Task :app:extractProguardFiles
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :agent:processReleaseJavaRes
+> Task :app:processReleaseJavaRes
+> Task :data:processReleaseJavaRes
+> Task :app:mergeReleaseStartupProfile
+> Task :agent:mergeReleaseShaders
+> Task :agent:compileReleaseShaders NO-SOURCE
+> Task :agent:generateReleaseAssets UP-TO-DATE
+> Task :agent:mergeReleaseAssets
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :data:mergeReleaseShaders
+> Task :data:compileReleaseShaders NO-SOURCE
+> Task :data:generateReleaseAssets UP-TO-DATE
+> Task :data:mergeReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets FROM-CACHE
+> Task :app:extractReleaseVersionControlInfo
+> Task :agent:extractProguardFiles
+> Task :data:createFullJarRelease
+> Task :data:extractProguardFiles
+> Task :data:generateReleaseLintModel
+> Task :data:prepareLintJarForPublish
+> Task :data:stripReleaseDebugSymbols NO-SOURCE
+> Task :data:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:mergeReleaseJavaResource
+> Task :agent:generateReleaseLintVitalModel
+> Task :app:minifyReleaseWithR8 FROM-CACHE
+> Task :app:compileReleaseArtProfile FROM-CACHE
+> Task :data:extractDeepLinksForAarRelease FROM-CACHE
+> Task :data:extractReleaseAnnotations FROM-CACHE
+> Task :data:mergeReleaseConsumerProguardFiles
+> Task :data:mergeReleaseJavaResource
+> Task :data:writeReleaseLintModelMetadata
+> Task :data:syncReleaseLibJars FROM-CACHE
+> Task :data:bundleReleaseLocalLintAar
+> Task :agent:prepareLintJarForPublish
+> Task :agent:createFullJarRelease
+> Task :agent:generateReleaseLintModel
+> Task :agent:lintVitalAnalyzeRelease FROM-CACHE
+> Task :app:generateReleaseLintVitalReportModel
+> Task :agent:stripReleaseDebugSymbols NO-SOURCE
+> Task :agent:copyReleaseJniLibsProjectAndLocalJars
+> Task :agent:extractDeepLinksForAarRelease FROM-CACHE
+> Task :agent:extractReleaseAnnotations FROM-CACHE
+> Task :agent:mergeReleaseConsumerProguardFiles
+> Task :agent:writeReleaseLintModelMetadata
+> Task :agent:mergeReleaseJavaResource
+> Task :data:lintVitalAnalyzeRelease FROM-CACHE
+> Task :agent:syncReleaseLibJars FROM-CACHE
+> Task :agent:bundleReleaseLocalLintAar
+> Task :data:generateReleaseLintVitalModel
+> Task :app:lintVitalAnalyzeRelease FROM-CACHE
+> Task :app:convertShrunkResourcesToBinaryRelease FROM-CACHE
+> Task :app:optimizeReleaseResources FROM-CACHE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/apk-1790806697353.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Rida_app/Rida_app/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 17s
+130 actionable tasks: 69 executed, 57 from cache, 4 up-to-date

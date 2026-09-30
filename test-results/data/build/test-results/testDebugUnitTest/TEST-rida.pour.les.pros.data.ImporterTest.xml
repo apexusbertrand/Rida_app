@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.data.ImporterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-30T22:15:40.027Z" hostname="runnervmtr4k5" time="0.184">
+  <properties/>
+  <testcase name="lignes_masquees_et_valeurs_invalides" classname="rida.pour.les.pros.data.ImporterTest" time="0.132"/>
+  <testcase name="clients_du_referentiel_puis_onglets_non_references" classname="rida.pour.les.pros.data.ImporterTest" time="0.021"/>
+  <testcase name="contenu_d_une_ligne_texte_riche_dates_historique" classname="rida.pour.les.pros.data.ImporterTest" time="0.016"/>
+  <testcase name="lignes_ids_et_compteur" classname="rida.pour.les.pros.data.ImporterTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

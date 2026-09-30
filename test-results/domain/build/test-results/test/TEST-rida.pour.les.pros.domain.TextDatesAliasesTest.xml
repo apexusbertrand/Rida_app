@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.domain.TextDatesAliasesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-30T21:29:25.039Z" hostname="runnervm8df0l" time="0.031">
+  <properties/>
+  <testcase name="historique_parse_et_join" classname="rida.pour.les.pros.domain.TextDatesAliasesTest" time="0.007"/>
+  <testcase name="statuts_et_types_tolerants" classname="rida.pour.les.pros.domain.TextDatesAliasesTest" time="0.002"/>
+  <testcase name="normalisation_du_texte_par_alias" classname="rida.pour.les.pros.domain.TextDatesAliasesTest" time="0.015"/>
+  <testcase name="resolution_client_par_code_ou_alias" classname="rida.pour.les.pros.domain.TextDatesAliasesTest" time="0.001"/>
+  <testcase name="dates_formats_acceptes" classname="rida.pour.les.pros.domain.TextDatesAliasesTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

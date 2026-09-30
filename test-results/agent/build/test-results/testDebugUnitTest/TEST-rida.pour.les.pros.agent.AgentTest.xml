@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.agent.AgentTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-30T22:18:10.056Z" hostname="runnervmtr4k5" time="3.609">
+  <properties/>
+  <testcase name="synthese_puis_mail" classname="rida.pour.les.pros.agent.AgentTest" time="3.316"/>
+  <testcase name="mise_a_jour_cloture_et_commentaire_intouchable" classname="rida.pour.les.pros.agent.AgentTest" time="0.089"/>
+  <testcase name="creation_puis_reponse_avec_invariants_imposes_par_le_code" classname="rida.pour.les.pros.agent.AgentTest" time="0.062"/>
+  <testcase name="client_inconnu_puis_non_identifie_avec_commentaire" classname="rida.pour.les.pros.agent.AgentTest" time="0.059"/>
+  <testcase name="reponse_texte_libre_sans_outil" classname="rida.pour.les.pros.agent.AgentTest" time="0.043"/>
+  <testcase name="garde_fou_erreurs_repetees" classname="rida.pour.les.pros.agent.AgentTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rida.pour.les.pros.xlsx.XlsxRoundTripTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-30T21:29:26.071Z" hostname="runnervm8df0l" time="0.19">
+  <properties/>
+  <testcase name="references_de_colonnes" classname="rida.pour.les.pros.xlsx.XlsxRoundTripTest" time="0.011"/>
+  <testcase name="ecriture_puis_lecture_multi_onglets" classname="rida.pour.les.pros.xlsx.XlsxRoundTripTest" time="0.177"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
