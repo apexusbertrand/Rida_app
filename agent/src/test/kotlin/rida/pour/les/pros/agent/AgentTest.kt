@@ -97,7 +97,7 @@ class AgentTest {
         runBlocking {
             repo.ensureSystemClients()
             val c = repo.addClient("Absys-Cyborg")
-            repo.addAlias(c.id, "Absys Cyborg")
+            repo.addAlias(c.id, "Absisses")
             repo.addClient("DERET")
         }
     }
@@ -111,7 +111,7 @@ class AgentTest {
             mutableListOf(
                 {
                     toolCall(
-                        "creer_ligne", "client" to "deret", "type" to "ACTION", "sujet" to "Devis signé chez absys cyborg",
+                        "creer_ligne", "client" to "deret", "type" to "ACTION", "sujet" to "Devis signé chez absisses",
                         "action" to "Stéphanie envoie le devis", "statut" to "A faire", "resume_historique" to "demande client",
                         "interlocuteur" to "Stéphanie",
                     )
