@@ -21,7 +21,8 @@ android {
         unitTests.isIncludeAndroidResources = true
     }
     sourceSets {
-        getByName("test").assets.srcDir("$projectDir/schemas")
+        // Schémas Room lisibles par les tests de migration (Robolectric) ; absents des builds release.
+        getByName("debug").assets.srcDir("$projectDir/schemas")
     }
 }
 
