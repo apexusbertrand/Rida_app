@@ -21,6 +21,8 @@ android {
 
     buildTypes {
         release {
+            // Provisoire (tests) : signée avec la clé de debug. Clé de publication au lot Store.
+            signingConfig = signingConfigs.getByName("debug")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")

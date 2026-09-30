@@ -27,12 +27,12 @@ jobs:
           set -o pipefail
           ./gradlew --no-daemon --console=plain :domain:test :xlsx:test :data:testDebugUnitTest 2>&1 | tee tests.log
 
-      - name: APK de debug
+      - name: APK optimisé (release signée debug)
         id: apk
         continue-on-error: true
         run: |
           set -o pipefail
-          ./gradlew --no-daemon --console=plain :app:assembleDebug 2>&1 | tee apk.log
+          ./gradlew --no-daemon --console=plain :app:assembleRelease 2>&1 | tee apk.log
 
       - name: Artefacts GitHub
         if: always()
@@ -40,7 +40,7 @@ jobs:
         with:
           name: rida-build-${{ github.run_number }}
           path: |
-            app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/release/*.apk
             **/build/reports/tests/**
           if-no-files-found: ignore
 
@@ -61,7 +61,7 @@ jobs:
           for d in $(find . -path '*/build/test-results/*' -name '*.xml' -printf '%h\n' | sort -u); do
             mkdir -p "/tmp/status/test-results/$d"; cp "$d"/*.xml "/tmp/status/test-results/$d/";
           done
-          cp app/build/outputs/apk/debug/*.apk /tmp/status/ 2>/dev/null || true
+          cp app/build/outputs/apk/release/*.apk /tmp/status/ 2>/dev/null || true
           cd /tmp/status
           git init -q -b ci-status
           git config user.name "ci-bot"
